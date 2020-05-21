@@ -1,0 +1,6 @@
+gitdb2===2.0.6
+GitPython==2.1.11
+Flask==0.12.2
+requests==2.18.4
+PyYAML==3.13
+coloredlogs==10.0

@@ -1,0 +1,8 @@
+
+tag_re_patten: 'EBMW-{}-MS-{}-[0-9]+-D'
+
+merged_branch_name_re_patten: 'EBMW-{}-MS-{}-[0-9][0-9]-U'
+
+new_branch_name_patten: 'TMP/EBMW-{}-MS-{}-{}-U'
+
+uat_branch: IBUAT

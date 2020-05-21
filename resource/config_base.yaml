@@ -1,0 +1,26 @@
+
+host: http://bitbucket.ctbcbank.com:7990
+
+default_reviewers_api: /rest/default-reviewers/1.0/projects/EBMW/repos/{}/conditions
+
+pull_requests_api: /rest/api/1.0/projects/EBMW/repos/{}/pull-requests
+
+headers:
+  Content-type: application/json
+
+environments:
+  SIT1:
+    env_key:
+      frontend-ib: IB1
+      microservice: SIT1
+      web-ui: MB1
+  SIT2:
+    env_key:
+      frontend-ib: IB2
+      microservice: SIT2
+      web-ui: MB2
+  SIT3:
+    env_key:
+      frontend-ib: IB3
+      microservice: SIT3
+      web-ui: MB3
